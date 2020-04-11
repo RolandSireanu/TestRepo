@@ -23,9 +23,9 @@ TEMPLATE_DIR=os.path.join(BASE_DIR , "templates")
 SECRET_KEY = '03w^$h8(yv2*vc=+f#_&mqbij9x^vu91qcdkr0k-5(gyp%g+@t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1' , 'localhost' , 'shark12592.pythonanywhere.com']
 
 
 # Application definition
